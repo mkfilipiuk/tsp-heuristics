@@ -20,10 +20,6 @@ def find_best_route(node_no, travel_route, min_distance):
             shortest_min_distance = min_distance.item(start_node)
             shortest_travel_route = travel_route[start_node]
 
-    print("min distance is: " + str(shortest_min_distance))
-    print("travel route is: ")
-    print(shortest_travel_route)
-
     return shortest_min_distance, shortest_travel_route
 
 
